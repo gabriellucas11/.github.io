@@ -1,41 +1,41 @@
-/* Estilos gerais */
+
 body {
     font-family: "Roboto", sans-serif;
-    background: #0F2027;  /* Fallback para navegadores antigos */
-    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-attachment: fixed; /* Fixa o gradiente para cobrir toda a página */
-    color: #E0E0E0; /* Texto cinza claro */
+    background: #0F2027;  
+    background: -webkit-linear-gradient(to right, 
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+    background-attachment: fixed; 
+    color: #E0E0E0; 
     text-align: center;
     margin: 0;
     padding: 0;
-    min-height: 100vh; /* Garante que o gradiente cubra toda a altura */
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start; /* Alinha os itens no topo */
+    justify-content: flex-start;
 }
 
 #particles-js {
-    position: fixed; /* Fixa as partículas no fundo */
+    position: fixed; 
     width: 100%;
     height: 100%;
     z-index: -1;
 }
 
 header {
-    background-color: rgba(44, 83, 100, 0.8); /* Cor do gradiente com transparência */
+    background-color: rgba(44, 83, 100, 0.8);
     padding: 20px;
     color: white;
     position: relative;
     z-index: 1;
-    backdrop-filter: blur(10px); /* Efeito de desfoque */
+    backdrop-filter: blur(10px); 
 }
 
 .gallery {
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.1); /* Fundo semi-transparente */
+    background-color: rgba(255, 255, 255, 0.1);
     border-radius: 10px;
-    margin: 10px auto; /* Reduzi a margem superior para mover o carrossel para cima */
+    margin: 10px auto;
     width: 90%;
     max-width: 1200px;
 }
@@ -75,7 +75,7 @@ header {
 
 .slick-prev:before,
 .slick-next:before {
-    color: #1E90FF; /* Azul claro */
+    color: #1E90FF; 
     font-size: 30px;
 }
 
@@ -91,12 +91,12 @@ header {
     margin: 20px;
     font-size: 1.5em;
     color: #FFFFFF;
-    position: relative; /* Garante que o botão esteja no fluxo normal */
-    z-index: 2; /* Certifica que o botão está acima de outros elementos */
+    position: relative;
+    z-index: 2; 
 }
 
 button {
-    background-color: #1E90FF; /* Azul claro */
+    background-color: #1E90FF;
     color: white;
     border: none;
     padding: 12px 24px;
@@ -107,11 +107,11 @@ button {
     box-sizing: border-box;
     display: inline-block;
     margin: 10px auto;
-    outline: 2px solid red; /* Contorno temporário para depuração */
+    outline: 2px solid red; 
 }
 
 button:hover {
-    background-color: #00BFFF; /* Azul mais claro no hover */
+    background-color: #00BFFF; 
 }
 
 .hidden {
@@ -119,16 +119,16 @@ button:hover {
 }
 
 footer {
-    background-color: rgba(44, 83, 100, 0.8); /* Cor do gradiente com transparência */
+    background-color: rgba(44, 83, 100, 0.8);
     color: white;
     padding: 10px;
     position: relative;
     z-index: 1;
-    backdrop-filter: blur(10px); /* Efeito de desfoque */
-    margin-top: auto; /* Mantém o rodapé no final da página */
+    backdrop-filter: blur(10px); 
+    margin-top: auto; 
 }
 
-/* Media Queries para Celulares */
+
 @media (max-width: 768px) {
     .carousel {
         width: 100%;
