@@ -3,7 +3,6 @@ particlesJS.load('particles-js', 'particles.json', function() {
     console.log('Partículas carregadas!');
 });
 
-
 AOS.init();
 
 
@@ -25,8 +24,8 @@ $(document).ready(function(){
             {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 1,
-                    centerMode: false,
+                    slidesToShow: 1, 
+                    centerMode: false, 
                     arrows: false, 
                 }
             }
