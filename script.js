@@ -8,7 +8,7 @@ AOS.init();
 
 
 
-// Inicializa o Slick Carousel
+
 $(document).ready(function(){
     $('.carousel').slick({
         dots: true,
@@ -25,8 +25,8 @@ $(document).ready(function(){
             {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 1, 
-                    centerMode: false, 
+                    slidesToShow: 1,
+                    centerMode: false,
                     arrows: false, 
                 }
             }
