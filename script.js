@@ -1,9 +1,9 @@
-// Animação de partículas
+
 particlesJS.load('particles-js', 'particles.json', function() {
     console.log('Partículas carregadas!');
 });
 
-// Animação de rolagem
+
 AOS.init();
 
 
@@ -25,9 +25,9 @@ $(document).ready(function(){
             {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 1, // Mostra apenas 1 slide em telas menores
-                    centerMode: false, // Desativa o modo centralizado
-                    arrows: false, // Esconde as setas
+                    slidesToShow: 1, 
+                    centerMode: false, 
+                    arrows: false, 
                 }
             }
         ]
